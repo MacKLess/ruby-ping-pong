@@ -31,7 +31,7 @@ _Ruby application that will return a list of numbers to a user input with "ping,
 
 ## Known Bugs
 
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
+_There are no known bugs at this time._
 
 ## Support and contact details
 
