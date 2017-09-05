@@ -5,6 +5,8 @@ class Integer
     times() do
       if number % 3 == 0
         results.push('ping')
+      elsif number % 5 == 0
+        results.push('pong')  
       else
         results.push(number)
       end
