@@ -3,10 +3,12 @@ class Integer
     number = 1
     results = []
     times() do
-      if number % 3 == 0
+      if number % 15 == 0
+        results.push('ping-pong')
+      elsif number % 3 == 0
         results.push('ping')
       elsif number % 5 == 0
-        results.push('pong')  
+        results.push('pong')
       else
         results.push(number)
       end
@@ -15,3 +17,4 @@ class Integer
     results
   end
 end
+puts 15.ping_pong()
